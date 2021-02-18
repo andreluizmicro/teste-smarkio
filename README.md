@@ -4,11 +4,11 @@ Seguir os passos para a execução do teste.
 # Ao realizar o download do projeto, acesse a pasta do mesmo e rode os seguintes comandos no terminal:
 
 # COMANDOS
-npm install 
-npm install express
-npm install express-handlebars
-npm install sequelize
-npm install mysql2
+## npm install 
+## npm install express
+## npm install express-handlebars
+## npm install sequelize
+## npm install mysql2
 
 # Configuração do Banco de Dados
 acesse o arquivo src/config/database.js e altere o o usuário e senha colocando suas credencias.
