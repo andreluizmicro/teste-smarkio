@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="form">
+    <form name="form" action="/add" method="POST" onsubmit="return validateForm();">
+      <label for="comment"><b class="bold">Comentários</b> </label><br>
+      <textarea class="comment" id="comment" name="comment" rows="5" cols="33" required></textarea><br>
+      <button type="submit" class="btn-register">Cadastrar</button>
+    </form>
+  </div>
+
+  <div class="container-comments">
+    <b class="bold">Comentário</b>
+    {{#each comments}}
+    <p>{{dataValues.comment}}</p>
+    <div class="post-comments">
+      <button class="btn-hear">Ouvir</button>
+    </div>
+    <hr>
+    {{/each}}
+  </div>
+</div>
